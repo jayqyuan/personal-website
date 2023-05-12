@@ -28,11 +28,11 @@ export default function Home() {
       </Head>
       <main>
         <NavBar {...navBarProps}/>
-        <div id='home-section'>Home</div>
-        <div id='about-me-section'>About Me</div>
-        <div id='skills-section'>Skills</div>
-        <div id='project-section'>My Projects</div>
-        <div id='contact-section'>My Contact</div>
+        <div id='home-section'className={styles.sections}>Home</div>
+        <div id='about-me-section'className={styles.sections}>About Me</div>
+        <div id='skills-section'className={styles.sections}>Skills</div>
+        <div id='project-section'className={styles.sections}>My Projects</div>
+        <div id='contact-section'className={styles.sections}>My Contact</div>
       </main>
     </>
   )
